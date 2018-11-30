@@ -1,0 +1,91 @@
+/*
+Main colors:
+ - blue: #013369
+ - red: #D50A0A
+*/
+
+.navbar {
+	background-color: #013369;
+	max-height: 80px;
+	position: fixed;
+    padding: 0.4rem 2rem;
+    left: 0;
+    right: 0;
+	top: 0;
+	z-index: 2;
+}
+.navbar .navbar-center {
+	align-items: normal;
+}
+.navbar-section > a {
+	margin-right: 1rem;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.logo img{
+	max-width: 175px;
+}
+
+#main {
+    margin-top: 80px;
+}
+
+#footer {
+	background-color: #013369;
+    padding: 2rem 0;
+}
+#footer .copyright {
+    color: white;
+	font-size: 14px;
+	font-style: italic;
+    margin-top: 2rem;
+}
+.footer-column {
+	border-top: 4px solid #D50A0A;
+}
+.footer-logo {
+	text-align: center;
+}
+.footer-logo img{
+	max-width: 325px;
+    margin: auto;
+    width: 100%;
+}
+#footer .social {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+#footer .social a {
+    color: white;
+}
+#footer .copyright .nfl-logo {
+	background-image: url(https://static.nfl.com/static/content/public/static/wildcat/assets/img/application-shell/shield/default.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    height: 64px;
+    width: 64px;
+    margin: auto;
+}
+#footer .footer-column ul {
+    margin: 0;
+}
+#footer .footer-column li {
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+	list-style: none;
+	padding: 0.5rem 1rem;
+}
+#footer .footer-column li > a {
+    color: white;
+    text-decoration: none;
+}
+#footer .footer-column li:hover {
+    background-color: #12559c;
+}
