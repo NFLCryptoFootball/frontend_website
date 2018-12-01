@@ -182,3 +182,22 @@ Main colors:
     color: white;
     padding: 0.3rem 0.5rem;
 }
+.nflbutton:visited {
+    color: white;
+}
+
+.news-box {
+	min-height: 150px;
+    width: 100%;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    background-color: #efefef;
+    margin-bottom: 1rem;
+}
+.news-box .news-image img {
+	height: 150px;
+}
+.news-date {
+    padding: 0.5rem 0;
+    color: rgba(0, 0, 0, 0.5);
+}
