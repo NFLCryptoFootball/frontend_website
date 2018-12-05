@@ -90,6 +90,10 @@ Main colors:
     background-color: #12559c;
 }
 
+.carousel {
+	margin-bottom: 1rem;
+}
+
 .box {
 	background-color: #dedede;
 	min-height: 200px;
@@ -200,4 +204,103 @@ Main colors:
 .news-date {
     padding: 0.5rem 0;
     color: rgba(0, 0, 0, 0.5);
+}
+
+.player-name {
+    float: left;
+    padding: 0.5rem 0 0 0;
+    margin-right: 1rem;
+}
+.asset-address {
+    float: right;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0.8rem 0 0 0;
+}
+.box-title .asset-logo {
+    float: left;
+    margin-right: 1rem;
+}
+
+.asset-thumbnail {
+	overflow: hidden;
+	padding: 0.3rem;
+}
+.asset-thumbnail img {
+	width: 100%;
+}
+
+#model-container {
+	height: 100%;
+}
+
+.asset-header .on-sale {
+    background-color: #D50A0A;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    right: 5px;
+    top: -5px;
+    width: 60px;
+    height: 80px;
+    box-shadow: 0 0 8px 0 #00000085;
+}
+.asset-header .on-sale span {
+    position: absolute;
+    bottom: 0;
+    width: 60px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.asset-header .on-sale:before {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	bottom: -15px;
+	border-style: solid;
+	border-width: 15px 30px 0 30px;
+	border-color: #D50A0A transparent transparent transparent;
+	line-height: 0px;
+	_border-color: #D50A0A #000000 #000000 #000000;
+	_filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+}
+
+.team-description {
+	padding: 2rem;
+}
+
+.attributes-container {
+	text-align: center;
+	display: block;
+}
+.attribute {
+	display: inline-block;
+	margin: 0 0.5rem;
+}
+.attribute img {
+    width: 100px;
+}
+.attribute-text {
+    color: #D50A0A;
+}
+
+.auction-container {
+    text-align: center;
+}
+.auction-container h4 {
+    text-align: center;
+}
+.auction-container .eth-price {
+    text-align: center;
+    font-weight: 700;
+    color: green;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.auction-container .nflbutton {
+    display: inline-block;
+}
+.auction-container .countdown {
+    margin-bottom: 20px;
+    font-size: 14px;
 }
