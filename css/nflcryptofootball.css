@@ -247,7 +247,7 @@ Main colors:
 .asset-header .on-sale span {
     position: absolute;
     bottom: 0;
-    width: 60px;
+    width: 48px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -263,6 +263,15 @@ Main colors:
 	line-height: 0px;
 	_border-color: #D50A0A #000000 #000000 #000000;
 	_filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+}
+.asset-header .on-sale-border {
+    position: absolute;
+    top: 0;
+    bottom: -3px;
+    left: 6px;
+    right: 6px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
 }
 
 .team-description {
@@ -303,4 +312,29 @@ Main colors:
 .auction-container .countdown {
     margin-bottom: 20px;
     font-size: 14px;
+}
+
+.team-header {
+    padding: 0 2rem 2rem;
+}
+.team-members {
+    padding: 2rem;
+}
+.team-member {
+    padding: 1rem;
+    text-align: center;
+}
+.team-member img {
+    margin: auto;
+    margin-bottom: 1rem;
+}
+.team-member .role {
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+.team-member .social {
+    font-size: 30px;
+}
+.team-member .social a {
+    color: #013369;
 }
